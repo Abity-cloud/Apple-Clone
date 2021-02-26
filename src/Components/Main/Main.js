@@ -1,10 +1,11 @@
 import React, { Component } from "react";
-
 import appletv from "../../images/icons/apple-tv-logo.png";
 import banker from "../../images/home/banker.png";
 import series5 from "../../images/icons/watch-series5-logo.png";
 import arcade from "../../images/icons/arcade.png";
-
+import Sep29 from "../../Components/Sep29/Sep29";
+import News from "../../Components/AppleNews/Applenews";
+import youtube from"../../Components/Youtube/Youtube";
 import Fourth from "./Fourth/Fourth";
 import Rating from "./Rating/Rating";
 import Youtube from "../Youtube/Youtube";
@@ -251,7 +252,14 @@ function Main() {
 
       <section className="youtubeVideosWrapper top-100">
         {/* <Youtube /> */}
+        < News />
+        {/* <Sep29 /> */}
+       
+
+        <section>{/*<LatestNews/>*/} </section>
       </section>
+      {/* <section> <Sep29/></section> */}
+      
     </div>
   );
 }

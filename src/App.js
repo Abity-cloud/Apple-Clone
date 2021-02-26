@@ -9,6 +9,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 // Renders components based on the URL
 
 // Home page
+
 import Navigation from "./Components/Nav/Nav";
 import Footer from "./Components/Footer/Footer";
 import Main from "./Components/Main/Main";
@@ -35,6 +36,7 @@ function App() {
           <Route path="/" component={Four04} />
         </Switch>
         <Footer />
+       
       </div>
     </Router>
   );

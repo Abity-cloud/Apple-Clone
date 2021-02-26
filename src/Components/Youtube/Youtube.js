@@ -12,7 +12,7 @@ class Youtube extends Component {
 
   componentDidMount() {
     fetch(
-      "https://www.googleapis.com/youtube/v3/search?key=AIzaSyBv_MveWxmNKF-fAAEDIy3qAIWtt0-YM1M&channelId=UCE_M8A5yxnLfW0KghEeajjw&part=snippet,id&order=date&maxResults=6"
+      "https://www.googleapis.com/youtube/v3/search?key=AIzaSyDGm__Qi7mpahhxyA-qvxTrkEHfiNJHt5c&channelId=UCE_M8A5yxnLfW0KghEeajjw&part=snippet,id&order=date&maxResults=6"
     )
       .then((response) => response.json())
       .then((data) => {
@@ -67,3 +67,4 @@ class Youtube extends Component {
 }
 
 export default Youtube;
+
